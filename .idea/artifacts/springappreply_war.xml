@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springappreply:war">
+    <output-path>$PROJECT_DIR$/springappreply/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springappreply</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springappreply.war">
+      <element id="artifact" artifact-name="springappreply:war exploded" />
+    </root>
+  </artifact>
+</component>
